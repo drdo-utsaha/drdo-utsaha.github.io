@@ -2,10 +2,15 @@
   width: 7em;
   height: 7em;
   display: inline-block;
-  background: url('../images/krishna.png') no-repeat;
+  background: url('http://i.imgur.com/kOp7zb1.png') no-repeat;
   background-position: -35px -3px;
 }
-
+article.centered {
+  text-align: center;
+}
+.wrapper.centered p {
+  text-align: center;
+}
 .container.invitation {
   font-family: "Roboto Slab";
 }
@@ -28,10 +33,20 @@
 .byline-small {
   font-size: .8em;
 }
+.image.featured2 {
+  display: block;
+  width: 80%;
+  margin: 0 auto 2em;
+}
 .animated {
   display: inline-block;
 }
-
+ul.bulleted li+li{
+  list-style-type: disc;
+}
+ul.bulleted h3 {
+  text-decoration: underline;
+}
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -103,16 +118,6 @@
   }
   100% {
     -webkit-box-shadow: 0 0 20px rgb(250, 250, 250), 0 0 50px rgb(255, 255, 255);
-    border-color: rgb(0,0,255,1.0);
-  }
-}
-@-moz-keyframes glow {
-  0% {
-    -moz-box-shadow: 0 0 20px rgb(250, 250, 250);
-    border-color: rgb(0,0,255,0.5);
-  }
-  100% {
-    -moz-box-shadow: 0 0 20px rgb(250, 250, 250), 0 0 50px rgb(255, 255, 255);
     border-color: rgb(0,0,255,1.0);
   }
 }

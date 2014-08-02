@@ -1035,19 +1035,19 @@
 	{
 		background: #fff;
 		margin: 0 0 2em 0;
-		padding: 6em 0 6em 0;
+		padding: 4em 0 6em 0;
 	}
 
 		.wrapper.style1
 		{
+			margin-bottom: 0;
 		}
 
 		.wrapper.style2
 		{
+			background: #f3f3f3 url('../images/overlay2.png');
 			padding-top: 0;
-		}
-		.wrapper.style3 {
-			background: #f3f3f3 url('../images/overlay.png');
+			margin-bottom: 0;
 		}
 
 /*********************************************************************************/
@@ -1057,11 +1057,12 @@
 	#header
 	{
 		position: relative;
-		background-image: url('../images/header.jpg');
+		/*background-image: url('../images/header.jpg');*/
+		background-image: url('http://i.imgur.com/NaGAngS.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #FFFF4A;
 		text-align: center;
 		padding: 2.5em 0 2em 0;
 		cursor: default;
@@ -1104,7 +1105,7 @@
 
 		#header h1
 		{
-			color: #fff;
+			color: #FFFF4A;
 			font-size: 3em;
 			font-family: "Roboto Condensed";
 			line-height: 1em;
@@ -1182,7 +1183,7 @@
 			position: relative;
 			display: inline-block;
 			margin: 0;
-
+			font-weight: 600;
 			height: 21px;
 			border-left: solid 1px rgba(192,192,192,0.35);
 			border-right: solid 1px rgba(192,192,192,0.35);
@@ -1383,7 +1384,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		padding: 6em 0 6em 0;
+		padding: .2em 0 3em 0;
 		background: #2b252c;
 		color: #fff;
 	}

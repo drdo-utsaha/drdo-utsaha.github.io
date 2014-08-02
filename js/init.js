@@ -355,7 +355,7 @@
 								$header
 									.css('padding-top', h)
 									.css('padding-bottom', h);
-							}, 0);
+							}, 10);
 						}).trigger('resize');
 					}
 
