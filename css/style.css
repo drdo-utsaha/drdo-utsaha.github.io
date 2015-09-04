@@ -2419,7 +2419,6 @@ header .fa.circled {
 
 #nav > ul > li > a, #nav > ul > li > span {
   display: block;
-  color: inherit;
   text-decoration: none;
   border: 0;
   outline: 0;

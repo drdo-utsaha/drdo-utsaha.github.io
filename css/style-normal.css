@@ -4,46 +4,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/*********************************************************************************/
-/* Wrapper                                                                       */
-/*********************************************************************************/
+/* Wrapper */
+.wrapper.style1, .wrapper.style2, .wrapper.style3, .wrapper.paisley, .wrapper.paper {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
-	.wrapper
-	{
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-	
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
+/* Header*/
+#header {}
 
-	#header
-	{
-	}
+#header .inner {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
-		#header .inner
-		{
-			padding-left: 2em;
-			padding-right: 2em;
-		}
-	
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
+/* Banner*/
+#banner {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
-	#banner
-	{
-		padding-left: 2em;
-		padding-right: 2em;
-	}
-	
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-
-	#footer
-	{
-		padding-left: 2em;
-		padding-right: 2em;
-	}
+/* Footer*/
+#footer {
+    padding-left: 2em;
+    padding-right: 2em;
+}

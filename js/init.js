@@ -441,4 +441,10 @@ jQuery(function() {
         });
         $(this).css("opacity", "0");
     });
+
+    $(".tagline").letterfx({"fx":"fly-right fly-bottom spin"});
+    $(".tagline-top").letterfx({"fx":"fly-top spin"});
+    $(".tagline-spin").letterfx({"fx":"swirl spin"});
+    // $(".tagline-main").letterfx({"fx":"swirl"});
+    // $(".tagline").letterfx({"fx":"swirl fly-top","backwards":false,"timing":50,"fx_duration":"1000ms","letter_end":"stay","element_end":"restore"});
 });

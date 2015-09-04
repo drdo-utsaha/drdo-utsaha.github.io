@@ -148,6 +148,11 @@ ul.bulleted.first-is-title li+li {
   animation-timing-function: ease-in-out;
 }
 
+a[href="invitation"] span,
+span.events {
+  color: #FFB85B;
+}
+
 @-webkit-keyframes glow {
   0% {
     -webkit-box-shadow: 0 0 20px rgb(250, 250, 250);
