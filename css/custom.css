@@ -5,7 +5,23 @@
   background: url('../images/krishna.png') no-repeat;
   background-position: -35px -3px;
 }
-
+.homepage #header {
+  padding: 2.5em 0 2em 0;
+  background-color: #f0f4f4;
+  background-image: url('http://i.imgur.com/NaGAngS.jpg');
+}
+.homepage #header h1 {
+  color: #ffcc00;
+}
+.row.quote-parent {
+  border-right: solid 0.5em #ddd;
+}
+article.centered {
+  text-align: center;
+}
+.wrapper.centered p {
+  text-align: center;
+}
 .container.invitation {
   font-family: "Roboto Slab";
 }
@@ -28,8 +44,44 @@
 .byline-small {
   font-size: .8em;
 }
+.image.featured2 {
+  display: block;
+  width: 80%;
+  margin: 0 auto 2em;
+}
 .animated {
   display: inline-block;
+}
+ul.bulleted li {
+  list-style-type: disc;
+}
+ul.bulleted h3 {
+  margin-bottom: 1em;
+}
+ul.bulleted.first-is-title li {
+  list-style-type: none;
+}
+ul.bulleted.first-is-title li+li {
+  list-style-type: disc;
+}
+.slab {
+  border-radius: 20px;
+  padding: 1.2em 2em;
+}
+.slab ul li+li{
+  margin-left: 1em;
+}
+.slab.cream {
+  background-color: #fedfb2;
+  border: 1px solid #daa04c;
+}
+.slab.pink {
+  background-color: #f5adce;
+  border: 1px solid #b87c97;
+}
+.slab.light-cream {
+  background-color: #ffffae;
+  border: 1px solid #cece38;
 }
 
 .animated {
@@ -103,16 +155,6 @@
   }
   100% {
     -webkit-box-shadow: 0 0 20px rgb(250, 250, 250), 0 0 50px rgb(255, 255, 255);
-    border-color: rgb(0,0,255,1.0);
-  }
-}
-@-moz-keyframes glow {
-  0% {
-    -moz-box-shadow: 0 0 20px rgb(250, 250, 250);
-    border-color: rgb(0,0,255,0.5);
-  }
-  100% {
-    -moz-box-shadow: 0 0 20px rgb(250, 250, 250), 0 0 50px rgb(255, 255, 255);
     border-color: rgb(0,0,255,1.0);
   }
 }
