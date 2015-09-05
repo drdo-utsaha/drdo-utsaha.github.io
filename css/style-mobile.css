@@ -132,7 +132,7 @@ ul.menu li:first-child {
     z-index: 1;
     display: block;
     text-decoration: none;
-    padding: 0.5em;
+    padding: 1.5em;
     color: #ddd;
     border: 0;
     border-top: dotted 1px rgba(255, 255, 255, 0.05);
@@ -145,6 +145,12 @@ ul.menu li:first-child {
 #navPanel .link.depth-0 {
     color: #fff;
     font-weight: 600;
+}
+
+#navPanel .link.depth-0:active,
+#navPanel .link.depth-1:active {
+    color: #ef8376;
+    border-bottom-color: transparent;
 }
 
 #navPanel .indent-1 {
