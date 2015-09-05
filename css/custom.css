@@ -13,7 +13,7 @@
 .homepage #header h1 {
   color: #ffcc00;
 }
-.row.quote-parent {
+.quote-parent {
   border-right: solid 0.5em #ddd;
 }
 article.centered {

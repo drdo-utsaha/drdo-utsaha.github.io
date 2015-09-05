@@ -118,7 +118,7 @@ sup {
 
 blockquote {
   border-left: solid 0.5em #ddd;
-  padding: 1em 0 1em 2em;
+  padding: 1em 1em 1em 2em !important;
   font-style: italic;
 }
 
@@ -2732,7 +2732,6 @@ header .fa.circled {
 .carousel article p {
   text-align: center;
 }
-
 .rounded-img {
   display: inline-block;
   border: solid 1px #000;

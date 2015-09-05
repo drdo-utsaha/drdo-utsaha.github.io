@@ -188,8 +188,8 @@ ul.menu li:first-child {
 .wrapper.style1,
 .wrapper.style2,
 .wrapper.style3,
-.wrapper.paisley,
-.wrapper.paper{
+.wrapper.palsey,
+.wrapper.paper {
     padding: 3em 1em 3em 1em !important;
 }
 
@@ -283,4 +283,8 @@ ul.menu li:first-child {
 
 .carousel article .image {
     margin-bottom: 2em;
+}
+
+.quote-parent {
+    padding-left: 0;
 }
