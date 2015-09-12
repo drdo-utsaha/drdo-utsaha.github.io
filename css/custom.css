@@ -8,7 +8,8 @@
 .homepage #header {
   padding: 2.5em 0 2em 0;
   background-color: #f0f4f4;
-  background-image: url('http://i.imgur.com/NaGAngS.jpg');
+  /* background-image: url('http://i.imgur.com/NaGAngS.jpg'); */
+  background-image: url('http://i.imgur.com/uulh3lh.jpg');
 }
 .homepage #header h1 {
   color: #ffcc00;
