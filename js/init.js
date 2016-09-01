@@ -412,7 +412,7 @@ jQuery(function() {
                     var sh = s.outerHeight(),
                         hh = $window.height(),
                         h = Math.ceil((hh - sh) / 2) + 1;
-                    $header.css('padding-top', h).css('padding-bottom', h);
+                    $header.css('padding-top', h*1.25).css('padding-bottom', h*.75);
                 }, 10);
             }).trigger('resize');
         }

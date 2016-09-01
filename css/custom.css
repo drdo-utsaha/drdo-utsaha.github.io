@@ -1,5 +1,4 @@
 #krishna-logo {
-  width: 7em;
   height: 7em;
   display: inline-block;
   background: url('../images/krishna.png') no-repeat;
@@ -8,10 +7,16 @@
 .homepage #header {
   padding: 2.5em 0 2em 0;
   background-color: #f0f4f4;
-  background-image: url('http://i.imgur.com/NaGAngS.jpg');
+  background-image: url('http://i.imgur.com/xWWH3WY.jpg');
 }
 .homepage #header h1 {
-  color: #ffcc00;
+  color: #ffef00;
+}
+#header .inner {
+  color: #ffef00;
+}
+#header .inner .byline-small {
+  color: #c34302;
 }
 .quote-parent {
   border-right: solid 0.5em #ddd;
