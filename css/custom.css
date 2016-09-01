@@ -13,7 +13,7 @@
 .homepage #header h1 {
   color: #ffcc00;
 }
-.row.quote-parent {
+.quote-parent {
   border-right: solid 0.5em #ddd;
 }
 article.centered {
@@ -146,6 +146,11 @@ ul.bulleted.first-is-title li+li {
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+}
+
+a[href="invitation"] span,
+span.events {
+  color: #FFB85B;
 }
 
 @-webkit-keyframes glow {
